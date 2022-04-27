@@ -11,7 +11,7 @@ const FILES_TO_CACHE = [
     "./dist/tickets.bundle.js",
     "./dist/schedule.bundle.js"
 ];
-const APP_PREFIX = 'FoodEvent-';
+const APP_PREFIX = 'Food-festival-';
 const VERSION = 'version_01';
 const CACHE_NAME = APP_PREFIX + VERSION;
 
@@ -29,7 +29,7 @@ self.addEventListener('fetch', function (e) {
       })
     )
   })
-  
+
 self.addEventListener('install', function (e) {
     e.waitUntil(
       caches.open(CACHE_NAME).then(function (cache) {
