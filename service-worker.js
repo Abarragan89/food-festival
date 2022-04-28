@@ -1,4 +1,5 @@
 const FILES_TO_CACHE = [
+    "/",
     "./index.html",
     "./events.html",
     "./tickets.html",
@@ -11,7 +12,7 @@ const FILES_TO_CACHE = [
     "./dist/tickets.bundle.js",
     "./dist/schedule.bundle.js"
 ];
-const APP_PREFIX = 'Food-festival-';
+const APP_PREFIX = 'Foodfestival-';
 const VERSION = 'version_01';
 const CACHE_NAME = APP_PREFIX + VERSION;
 
